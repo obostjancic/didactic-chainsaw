@@ -7,7 +7,7 @@ function App() {
       <button
         type="button"
         onClick={() => {
-          throw new Error("Sentry Frontend Error updated");
+          throw new Error("Sentry Frontend Error should have git commit");
         }}
       >
         Throw error updated
