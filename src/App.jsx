@@ -7,10 +7,10 @@ function App() {
       <button
         type="button"
         onClick={() => {
-          throw new Error("Sentry Frontend Error");
+          throw new Error("Sentry Frontend Error updated");
         }}
       >
-        Throw error
+        Throw error updated
       </button>
     </div>
   );
